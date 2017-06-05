@@ -2,6 +2,14 @@ html, body {
   height: 100%;
 }
 
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-inverse .navbar-nav li a {
+  font-size: 1.5em;
+}
+
 .container {
 	min-height: 100%;
 	overflow: auto;
@@ -11,6 +19,11 @@ html, body {
 	font-size: 1.25em;
 }
 
+/* Sidebar */
+.panel-title {
+  font-size: 1.5em;
+}
+
 div.panel-body {
 	border: 1px solid #ddd;
 }
@@ -18,7 +31,7 @@ div.panel-body {
 div.panel-body a{
 	text-decoration: none;
 	color: inherit;
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 .blockquote {
@@ -43,7 +56,19 @@ div.panel-body a{
   width: 100%;
   margin-top: -70px; /* negative value of footer height */
   height: 70px;
-  clear:both;
+  clear: both;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+.check-text {
+  font-size: 1em;
+}
+
+.btn {
+  font-size: 1.5em;
 }
 
 .btn-primary {
