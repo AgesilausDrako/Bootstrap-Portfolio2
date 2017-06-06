@@ -18,7 +18,6 @@ body {
 /* Index Styles */
 .container {
 	min-height: 100%;
-	overflow: auto;
 }
 
 .main-content {
@@ -99,5 +98,6 @@ textarea.form-control {
   margin-top: -70px; /* negative value of footer height */
   height: 70px;
   clear: both;
+  margin-top: 20px;
 }
 
